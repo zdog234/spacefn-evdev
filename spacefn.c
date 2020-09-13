@@ -26,13 +26,13 @@ unsigned int key_map(unsigned int code) {
         case KEY_L:
             return KEY_RIGHT;
 
-        case KEY_M:
+        case KEY_U:
             return KEY_HOME;
-        case KEY_COMMA:
+        case KEY_N:
             return KEY_PAGEDOWN;
-        case KEY_DOT:
+        case KEY_H:
             return KEY_PAGEUP;
-        case KEY_SLASH:
+        case KEY_O:
             return KEY_END;
 
         case KEY_B:
