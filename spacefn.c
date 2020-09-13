@@ -21,9 +21,9 @@ unsigned int key_map(unsigned int code) {
             return KEY_LEFT;
         case KEY_K:
             return KEY_DOWN;
-        case KEY_L:
+        case KEY_I:
             return KEY_UP;
-        case KEY_SEMICOLON:
+        case KEY_L:
             return KEY_RIGHT;
 
         case KEY_M:
