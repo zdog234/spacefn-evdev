@@ -34,6 +34,8 @@ unsigned int key_map(unsigned int code) {
             return KEY_PAGEUP;
         case KEY_O:
             return KEY_END;
+        case KEY_BACKSPACE:
+            return KEY_DELETE;
 
         case KEY_B:
             return KEY_SPACE;
