@@ -1,0 +1,15 @@
+[Unit]
+Description=spacefn keyboard re-mapping
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+Group=root
+ExecStart=/usr/local/bin/spacefn /dev/input/by-path/platform-i8042-serio-0-event-kbd
+
+[Install]
+WantedBy=multi-user.target

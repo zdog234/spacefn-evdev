@@ -28,6 +28,25 @@ You can also just run the program as root.
 
 Run `make`.
 
+## Installation
+
+```bash
+sudo cp ./spacefn /usr/local/bin/spacefn
+```
+
+### Create service file
+
+```bash
+sudo cp ./spacefn.service /etc/systemd/system/spacefn.service
+```
+
+### Start service
+
+```bash
+sudo systemctl enable spacefn
+sudo systemctl start spacefn
+```
+
 ## Running
 
 Find your keyboard in `/dev/input/`.
