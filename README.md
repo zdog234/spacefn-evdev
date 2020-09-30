@@ -44,7 +44,7 @@ sudo cp ./spacefn.service /etc/systemd/system/spacefn.service
 
 ```bash
 sudo systemctl enable spacefn
-sudo systemctl start spacefn
+sudo systemctl daemon-reload
 ```
 
 ## Running
